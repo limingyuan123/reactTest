@@ -8,7 +8,14 @@ class Home extends Component{
         super(props);
     }
     componentDidMount(){
-
+        //render之前执行
     }
-    
+    render(){
+        return(
+            <Card>
+                test
+            </Card>
+        )
+    }
 }
+export default Home;
